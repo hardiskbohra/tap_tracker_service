@@ -15,8 +15,8 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.3.2
       with:
-        ftp-server: ${{ secrets.CLOUDWAYS_SERVER }}
-        ftp-username: ${{ secrets.CLOUDWAYS_USERNAME }}
-        ftp-password: ${{ secrets.CLOUDWAYS_PASSWORD }}
+        ftp-server: http://phpstack-647823-2922742.cloudwaysapps.com/
+        ftp-username: tap_admin123
+        ftp-password: Tap_admin123
       
     
