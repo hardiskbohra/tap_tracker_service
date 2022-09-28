@@ -13,7 +13,7 @@ jobs:
       with:
         fetch-depth: 2
     - name: 📂 Sync files
-      uses: SamKirkland/FTP-Deploy-Action@4.3.2
+      uses: SamKirkland/FTP-Deploy-Action@3.1.1
       with:
         server: phpstack-647823-2922742.cloudwaysapps.com
         username: tap_admin123
