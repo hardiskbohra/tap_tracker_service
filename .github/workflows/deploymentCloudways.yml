@@ -2,7 +2,7 @@ name: 🚀 Deploy to Cloudways
 on:
   push:
     branches:
-      - origin/master
+      - master
       
 jobs:
   FTP-Deploy-Action:
