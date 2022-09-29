@@ -15,9 +15,9 @@ jobs:
     - name: 📂 Sync files
       uses: wlixcc/SFTP-Deploy-Action@v1.2.4
       with:
-        server: phpstack-647823-2922742.cloudwaysapps.com
-        username: vymtscjmay
-        password: cQ7NeFqCmk
+        server: 178.62.83.164
+        username: tap_admin123
+        password: Tap_admin123
         local_path: './*'
         remote_path: '/'
       
