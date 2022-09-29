@@ -13,10 +13,10 @@ jobs:
       with:
         fetch-depth: 2
     - name: 📂 Sync files
-      uses: SamKirkland/FTP-Deploy-Action@3.1.1
+      uses: SamKirkland/FTP-Deploy-Action@4.3.2
       with:
-        ftp-server: http://phpstack-647823-2922742.cloudwaysapps.com
-        ftp-username: tap_admin123
-        ftp-password: Tap_admin123
+        server: http://phpstack-647823-2922742.cloudwaysapps.com
+        username: tap_admin123
+        password: Tap_admin123
       
     
