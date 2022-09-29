@@ -19,6 +19,6 @@ jobs:
         username: vymtscjmay
         password: cQ7NeFqCmk
         local_path: './*'
-        remote_path: '/public_html/test'
+        remote_path: '/'
       
     
