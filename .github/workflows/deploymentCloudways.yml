@@ -16,8 +16,8 @@ jobs:
       uses: wlixcc/SFTP-Deploy-Action@v1.2.4
       with:
         server: phpstack-647823-2922742.cloudwaysapps.com
-        username: tap_admin123
-        password: Tap_admin123
+        username: vymtscjmay
+        password: cQ7NeFqCmk
         local_path: './*'
         remote_path: '/public_html/test'
       
