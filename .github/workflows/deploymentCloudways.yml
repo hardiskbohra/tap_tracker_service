@@ -18,5 +18,7 @@ jobs:
         server: phpstack-647823-2922742.cloudwaysapps.com
         username: tap_admin123
         password: Tap_admin123
+        local_path: './build/*'
+        remote_path: '/var/www/react-app'
       
     
