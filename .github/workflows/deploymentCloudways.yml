@@ -17,7 +17,7 @@ jobs:
         server: 178.62.83.164
         username: tap_admin123
         password: Tap_admin123
-        local_path: './dist/*'
+        local_path: './*'
         remote_path: '/'
         sftpArgs: '-v -o ConnectTimeout=5'
       
