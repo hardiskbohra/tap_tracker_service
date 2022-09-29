@@ -19,6 +19,6 @@ jobs:
         username: tap_admin123
         password: Tap_admin123
         local_path: './*'
-        remote_path: 'sudo chown -R $tap_admin123:$tap_admin123 /'
+        remote_path: 'sudo sftp -r /test'
       
     
