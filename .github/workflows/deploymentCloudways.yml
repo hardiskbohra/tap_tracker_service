@@ -9,9 +9,8 @@ jobs:
     name: SFTP-Deploy-Action
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-      with:
-        fetch-depth: 2
+    - name: Checkout
+      uses: actions/checkout@v2
     - name: 📂 Sync files
       uses: wlixcc/SFTP-Deploy-Action@v1.2.4
       with:
@@ -20,5 +19,6 @@ jobs:
         password: Tap_admin123
         local_path: './*'
         remote_path: '/'
+        sftpArgs: '-v -o ConnectTimeout=5'
       
     
