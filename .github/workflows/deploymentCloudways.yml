@@ -11,14 +11,22 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v2
-    - name: 📂 Sync files
-      uses: wlixcc/SFTP-Deploy-Action@v1.2.4
-      with:
-        server: 178.62.83.164
-        username: tap_admin123
-        password: Tap_admin123
-        local_path: './*'
-        remote_path: '/'
-        sftpArgs: '-v -o ConnectTimeout=5'
+    - name: FTP-Deploy-Action
+      uses: SamKirkland/FTP-Deploy-Action@2.0.0
+      env:
+        FTP_SERVER: 178.62.83.164
+        FTP_USERNAME: tap_admin123
+        FTP_PASSWORD: Tap_admin123
+        LOCAL_DIR: build
+        METHOD: sftp
+#     - name: 📂 Sync files
+#       uses: wlixcc/SFTP-Deploy-Action@v1.2.4
+#       with:
+#         server: 178.62.83.164
+#         username: tap_admin123
+#         password: Tap_admin123
+#         local_path: './*'
+#         remote_path: '/'
+#         sftpArgs: '-v -o ConnectTimeout=5'
       
     
